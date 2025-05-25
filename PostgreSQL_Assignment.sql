@@ -36,3 +36,14 @@ INSERT INTO rangers (name, region) VALUES
 ('Diana Blue', 'Eastern Forests'),
 ('Ethan Gray', 'Western Mountains'),
 ('Carol King','Mountain Range');
+
+--Insert data into species table
+INSERT INTO species (common_name, scientific_name, discovery_date, conservation_status) VALUES
+('Northern Lynx', 'Lynx canadensis', '2000-05-15', 'Vulnerable'),
+('Eastern Wolf', 'Canis lupus lycaon', '1998-08-20', 'Endangered'),
+('Mountain Goat', 'Oreamnos americanus', '2005-03-10', 'Vulnerable'),
+('Red Fox', 'Vulpes vulpes', '2010-07-25', 'Vulnerable'),
+('Bald Eagle', 'Haliaeetus leucocephalus', '1985-11-30', 'Endangered'),
+(' Snow Leopard ', 'Panthera uncia', '1775-02-14', 'Endangered'),
+('Grizzly Bear', 'Ursus arctos horribilis', '1825-09-05', 'Vulnerable'),
+('American Bison', 'Bison bison', '1780-04-18', 'Endangered');
